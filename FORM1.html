@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="icon" type="image/x-icon" href="peakpx (1).jpg">
+    <link rel="stylesheet" href="FORM2.css">
+    <script defer src="FORM3.js"> </script>
+    <script src="https://kit.fontawesome.com/c7693001a6.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body id="BACK">
+<div class="Box">
+    
+    <h1 align="center" id="text">WELCOME IN FORM</h1>
+    <h2 align="left"  id="text">Register Now</h2>
+   
+    <form onsubmit="event.preventDefault(); " autocomplete="off">
+        <div class="Forms" >
+           Name: <input type="text" name="fname" id="name"> 
+        </div>
+
+        <div class="Forms" >
+            DoB: <input type="date" name="date1" id="Dob"> 
+        </div>
+
+        
+        <div class="Forms" >
+            Start Date: <input type="date" name="date2" id="StartDate"> 
+        </div>
+
+        <div class="Forms" >
+            End Date: <input type="date" name="date3" id="EndDate"> 
+        </div>
+
+        <div class="Forms" >
+            Upload: <input type="file" name="load" accept="application/pdf" id="Upload"> 
+        </div>
+
+        <button onclick="myFunction()" class="Button"  value="Submit">Submit</button>
+        <p id="demo"></p>
+    </form>
+
+    
+    <td >
+        <table class="list" id="employeeList">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Dob</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Upload</th>
+                    <th>Edit & Del</th>
+
+                </tr>
+            </thead>
+            <tbody>
+   
+            </tbody>
+   
+         </table>
+     </td>
+    
+
+
+</div>  
+</body>
+</html>

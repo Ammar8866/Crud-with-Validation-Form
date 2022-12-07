@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#BACK{
+    background-image: url('back.jpg');
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+
+#text{
+    margin: 25px;
+}
+
+.Box{
+    border-radius: 10px;
+    /* align-items: center; */
+    background-color: rgb(227, 250, 175);
+    height: 600px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    /* margin-top: 20px; */
+    margin: 21px 0px 50px 50px;
+    /* margin-inline: 450px; */
+  
+    
+}
+
+.Forms{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px -67px 50px -81px;
+    
+  
+}
+
+.Forms input{
+    width: 50%;
+    height: 30px;
+    padding: 0px 0px 0px 26px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    
+  
+}
+
+#name{
+    margin-left: 40px;
+}
+
+#Dob{
+    margin-left: 52px;
+} 
+
+
+#StartDate{
+    margin-left: 8px;
+
+}
+
+#EndDate{
+    margin-left: 14px;
+
+}
+
+#Upload{
+    margin-left: 33px;
+    border: none;
+
+}
+
+.Button{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin: -7px 0px 0px 0px;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.Button:hover{
+    background-color: rgb(54, 240, 178);
+    color: rgb(255, 5, 5);
+   
+}
+
+
+/* -------------------------------------------------------- */
+
+.list{
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(227, 250, 175);
+    height: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: -564px;
+    padding: 11px 46px 12px 39px;
+    margin-left: 600px;
+   
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+
+
+table.list{
+    width: 100px;
+}
+
+
+td, th{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    text-align:center;
+    padding: 6px 38px 4px 0px ;
+}
